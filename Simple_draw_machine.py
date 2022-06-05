@@ -2,7 +2,7 @@
 """
 This is a simple draw machine. It tells the user where the meeting will take 
 place when there are three locations to choose from. 
-It also gives the time of the draw.
+It also gives the exact time of the draw.
 
 
 
@@ -24,3 +24,4 @@ score = random.choice(choices)
 print("*" * 15)
 time.sleep(3)
 print(f"The result: {score}. Time of the draw: {now}")
+print(f"All is clear now. See you at {score}!")
