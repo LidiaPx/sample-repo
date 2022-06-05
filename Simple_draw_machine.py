@@ -10,7 +10,7 @@ It also gives the exact time of the draw.
 import random
 import time
 print("*" * 15)
-print("Test draw")
+print("Welcome to the Draw Machine.")
 print("*" * 15)
 now = time.strftime("%H:%M:%S")
 print("Where will we meet? There are three places to choose from: a forest, a field and a valley.")
